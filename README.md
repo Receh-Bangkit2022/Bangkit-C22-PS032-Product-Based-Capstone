@@ -15,7 +15,8 @@ Tourism, Creative, and Digital Economy
 | Reinaldy Thando | C7005F0463 | Cloud Computing |
 
 ## Machine Learning Learning Path (*coming soon*)
-TBA.
+Our team use [TF Lite Model Maker](https://www.tensorflow.org/lite/models/modify/model_maker/object_detection) for created model. 
+The TensorFlow Lite Model Maker API helping the process of training a TensorFlow Lite models using custom datasets. It uses transfer learning to reduce the amount of training data required and shorten the training time.
 
 ## Mobile Development Learning Path (*coming soon*)
 TBA.

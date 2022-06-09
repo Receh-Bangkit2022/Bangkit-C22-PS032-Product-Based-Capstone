@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: dev.chrisbanes.insetter:insetter:0.6.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b4f7058c5923c9a5f3bee58744bbc5c5/transformed/insetter-0.6.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b4f7058c5923c9a5f3bee58744bbc5c5/transformed/insetter-0.6.0/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b4f7058c5923c9a5f3bee58744bbc5c5/transformed/insetter-0.6.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c49a63de2f2fa88e91e2954be78d438a/transformed/jetified-insetter-0.6.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c49a63de2f2fa88e91e2954be78d438a/transformed/jetified-insetter-0.6.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c49a63de2f2fa88e91e2954be78d438a/transformed/jetified-insetter-0.6.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/dev.chrisbanes.insetter/insetter/0.6.0/e8abdb4d25b3ba88546730365d7acdc08828ca70/insetter-0.6.0-javadoc.jar!/" />

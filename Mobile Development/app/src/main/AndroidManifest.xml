@@ -18,29 +18,63 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Receh"
         tools:targetApi="31">
+        <activity android:name=".ui.scan.ScanActivity"
+            android:exported="true"/>
+        <activity android:name=".ui.scan.DceActivity"
+            android:exported="true"/>
         <activity
-            android:name=".signup.VerifikasiActivity"
+            android:name=".ui.metode.MetodePembayaranActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.topup.SuksesTopupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ereceipt.EreceiptpayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.barcode.QRcodeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.lokasi.LokasiSellerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.lokasi.LokasiMitraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ereceipt.EreceiptTopupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.pembayaran.GagalbayarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.password.PasswordtopupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.password.PasswordbayarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.topup.TopupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.signup.VerifikasiActivity"
             android:exported="false" />
 
         <meta-data
             android:name="com.google.mlkit.vision.DEPENDENCIES"
             android:value="barcode" /> <!-- To use multiple models: android:value="barcode,model2,model3" -->
         <activity
-            android:name=".scan_barcode"
-            android:exported="false" />
-        <activity
-            android:name=".signup.SignupActivity"
+            android:name=".ui.signup.SignupActivity"
             android:exported="false"
             android:theme="@style/Theme.Receh" />
         <activity
-            android:name=".masuk.LoginActivity"
+            android:name=".ui.masuk.LoginActivity"
             android:exported="false"
             android:theme="@style/Theme.Receh" />
         <activity
-            android:name=".ui.Sukses_transaksi"
+            android:name=".ui.pembayaran.SuksesbayarActivity"
             android:exported="false" />
         <activity
-            android:name=".prosestarikcust"
+            android:name=".ui.pembayaran.ProsesbayarActivity"
             android:exported="false" />
         <activity
             android:name=".ActivityWelcome"
@@ -59,7 +93,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.MainActivity"
             android:exported="true" />
     </application>
 

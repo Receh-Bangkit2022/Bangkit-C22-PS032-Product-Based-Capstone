@@ -10,4 +10,6 @@
     <color name="yellow">#33FFA800</color>
     <color name="brown">#FF6B4A2C</color>
     <color name="yellow_l">#f58400</color>
+    <color name="lightorange">#F9E4CD</color>
+    <color name="lightgray">#E1DBD5</color>
 </resources>

@@ -7,6 +7,10 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Receh.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Receh.app.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Receh.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Receh.app.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Receh.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Receh.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/opencv/Receh.opencv.iml" filepath="$PROJECT_DIR$/.idea/modules/opencv/Receh.opencv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/opencv/Receh.opencv.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/opencv/Receh.opencv.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/opencv/Receh.opencv.main.iml" filepath="$PROJECT_DIR$/.idea/modules/opencv/Receh.opencv.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/opencv/Receh.opencv.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/opencv/Receh.opencv.unitTest.iml" />
     </modules>
   </component>
 </project>

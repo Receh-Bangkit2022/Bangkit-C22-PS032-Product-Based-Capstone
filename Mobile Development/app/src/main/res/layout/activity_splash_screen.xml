@@ -7,7 +7,6 @@
         android:background="@color/brown"
     >
 
-
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/imageReceh1"
         android:layout_width="199dp"
@@ -58,19 +57,18 @@
         android:id="@+id/txtStartSmallTo"
         android:layout_width="160dp"
         android:layout_height="37dp"
-        android:layout_marginStart="68dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="42dp"
         android:fontFamily="@font/regular"
+        android:text="@string/msg_start_small_to"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="@color/white"
         android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@+id/imageImage1"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
-        tools:text="@string/msg_start_small_to" />
+        app:layout_constraintEnd_toEndOf="@+id/textView4"
+        app:layout_constraintHorizontal_bias="0.287"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <ImageView
         android:id="@+id/imageImage1"

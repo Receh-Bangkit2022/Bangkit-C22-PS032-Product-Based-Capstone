@@ -1,14 +1,11 @@
 package com.capstone.receh
 
 import android.content.Intent
-import android.os.Build
 import android.os.Bundle
-import android.view.WindowInsets
-import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
 import com.capstone.receh.databinding.ActivityWelcomePageBinding
-import com.capstone.receh.masuk.LoginActivity
-import com.capstone.receh.signup.SignupActivity
+import com.capstone.receh.ui.masuk.LoginActivity
+import com.capstone.receh.ui.signup.SignupActivity
 
 class ActivityWelcome: AppCompatActivity() {
 

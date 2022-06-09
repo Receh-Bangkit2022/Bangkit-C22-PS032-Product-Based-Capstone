@@ -6,7 +6,6 @@ import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.core.booleanPreferencesKey
 import androidx.datastore.preferences.core.edit
 import androidx.datastore.preferences.core.stringPreferencesKey
-import com.capstone.receh.MainViewModel
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 
@@ -19,6 +18,8 @@ class UserPreference private constructor(private val dataStore: DataStore<Prefer
                 preferences[EMAIL_KEY] ?:"",
                 preferences[PASSWORD_KEY] ?:"",
                 preferences[HP_KEY]?: "",
+                preferences[ID_KEY]?: "",
+                preferences[BALANCE_KEY]?: "",
                 preferences[STATE_KEY] ?: false
             )
         }
@@ -30,6 +31,8 @@ class UserPreference private constructor(private val dataStore: DataStore<Prefer
             preferences[EMAIL_KEY] = user.email
             preferences[PASSWORD_KEY] = user.password
             preferences[HP_KEY] = user.hp
+            preferences[ID_KEY] = user.id
+            preferences[BALANCE_KEY] = user.balance.toString()
             preferences[STATE_KEY] = user.isLogin
         }
     }
@@ -43,6 +46,7 @@ class UserPreference private constructor(private val dataStore: DataStore<Prefer
     suspend fun logout() {
         dataStore.edit { preferences ->
             preferences[STATE_KEY] = false
+            preferences.clear()
         }
     }
 
@@ -54,6 +58,8 @@ class UserPreference private constructor(private val dataStore: DataStore<Prefer
         private val EMAIL_KEY = stringPreferencesKey("email")
         private val PASSWORD_KEY = stringPreferencesKey("password")
         private val HP_KEY = stringPreferencesKey("hp")
+        private val ID_KEY = stringPreferencesKey("id")
+        private val BALANCE_KEY = stringPreferencesKey("balance")
         private val STATE_KEY = booleanPreferencesKey("state")
 
         fun getInstance(dataStore: DataStore<Preferences>): UserPreference {

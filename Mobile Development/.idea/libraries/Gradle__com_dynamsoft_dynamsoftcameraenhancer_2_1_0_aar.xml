@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.dynamsoft:dynamsoftcameraenhancer:2.1.0@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/42475d8c7e77382bb03a37408288ba64/transformed/dynamsoftcameraenhancer-2.1.0/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/42475d8c7e77382bb03a37408288ba64/transformed/dynamsoftcameraenhancer-2.1.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/42475d8c7e77382bb03a37408288ba64/transformed/dynamsoftcameraenhancer-2.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ae1563eb1ed1970d48bb629e17042417/transformed/jetified-dynamsoftcameraenhancer-2.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ae1563eb1ed1970d48bb629e17042417/transformed/jetified-dynamsoftcameraenhancer-2.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ae1563eb1ed1970d48bb629e17042417/transformed/jetified-dynamsoftcameraenhancer-2.1.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

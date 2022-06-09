@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+
+        android:id="@+id/constraintSignup"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@color/brown">
+
+        <EditText
+            android:id="@+id/nameInput"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:alpha="0"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:fontFamily="@font/regular"
+            android:hint="@string/lbl_nama"
+            android:inputType="textPersonName"
+            android:padding="10sp"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/txtAlamatEmail"
+            app:layout_constraintTop_toBottomOf="@+id/txtNama" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/passwordEditTextLayout"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="24dp"
+            android:alpha="0"
+            android:background="@drawable/border"
+            android:gravity="center"
+            app:boxStrokeWidth="0dp"
+            app:boxStrokeWidthFocused="0dp"
+            app:hintEnabled="false"
+            app:layout_constraintEnd_toEndOf="@+id/emailInput"
+            app:layout_constraintStart_toStartOf="@+id/emailInput"
+            app:layout_constraintTop_toBottomOf="@+id/txtPassword"
+            app:passwordToggleEnabled="true">
+
+                <EditText
+                    android:id="@+id/passwordEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:ems="10"
+                    android:padding="15dp"
+                    android:hint="@string/lbl_password"
+                    android:inputType="textPassword"
+                    app:passwordToggleEnabled="true"
+                    tools:layout_editor_absoluteX="10dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <EditText
+            android:id="@+id/emailInput"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="16dp"
+            android:alpha="0"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:fontFamily="@font/regular"
+            android:hint="@string/lbl_alamat_email"
+            android:inputType="textEmailAddress"
+            android:padding="10sp"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/nameInput"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/nameInput"
+            app:layout_constraintTop_toBottomOf="@+id/txtAlamatEmail" />
+
+        <TextView
+            android:id="@+id/txtNama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/regular"
+            android:text="@string/lbl_nama"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/txtSilahkanLengka"
+            app:layout_constraintHorizontal_bias="0.0"
+            android:alpha="0"
+            app:layout_constraintStart_toStartOf="@+id/txtSilahkanLengka"
+            app:layout_constraintTop_toBottomOf="@+id/txtSilahkanLengka" />
+
+        <TextView
+            android:id="@+id/txtSilahkanLengka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/regular"
+            android:gravity="start"
+            android:textColor="@color/white"
+            android:alpha="0"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/txtDaftar"
+            app:layout_constraintTop_toBottomOf="@+id/txtDaftar"
+            android:text="@string/msg_silahkan_lengka" />
+
+        <TextView
+            android:id="@+id/txtAlamatEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/regular"
+            android:alpha="0"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/txtNama"
+            app:layout_constraintTop_toBottomOf="@+id/nameInput"
+            android:text="@string/lbl_alamat_email" />
+
+        <TextView
+            android:id="@+id/txtPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:alpha="0"
+            android:fontFamily="@font/regular"
+            android:text="@string/lbl_password"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/txtAlamatEmail"
+            app:layout_constraintTop_toBottomOf="@+id/emailInput" />
+
+
+        <TextView
+            android:id="@+id/txtDaftar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="124dp"
+            android:alpha="0"
+            android:fontFamily="@font/regular"
+            android:text="@string/lbl_daftar"
+            android:textColor="@color/white"
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.083"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnDaftar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="28dp"
+            android:alpha="0"
+            android:background="@drawable/iconbutton"
+            android:fontFamily="@font/regular"
+            android:text="@string/lbl_daftar"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/passwordEditTextLayout"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/passwordEditTextLayout"
+            app:layout_constraintTop_toBottomOf="@+id/passwordEditTextLayout"
+            app:layout_constraintVertical_bias="0.225" />
+</androidx.constraintlayout.widget.ConstraintLayout>

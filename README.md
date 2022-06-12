@@ -1,7 +1,7 @@
 # Bangkit-C22-PS032-Product-Based-Capstone
 This is repository for Product Based Capstone Bangkit Academy 2022
 ## Hello 
-This our repo for Product Base Capstone
+This our repo for our team Product-Based Capstone Project. in this project, we developed a payment app called Receh. 
 ## Theme
 Tourism, Creative, and Digital Economy
 ## The Team

@@ -459,7 +459,7 @@ detection_result_image = run_odt_and_draw_results(
 Image.fromarray(detection_result_image
 ```
 ## Mobile Development Learning Path (*coming soon*)
-TBA.
+In working on this application, our team uses the MVVM architecture and the datastore as the base. We also use TF Lite to be able to implement Machine Learning to Android. Apart from TF Lite, we also use Retrofit and also Firebase. Retrofit is used to store or get transaction history and also to get some partner/seller data into API. Firebase is used as the main database and also Authentication for users.
 
 ## Cloud Computing Learning Path (*coming soon*)
 TBA.

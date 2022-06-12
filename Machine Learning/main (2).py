@@ -163,9 +163,6 @@ model_qrcode = object_detector.create(train_data, #train dataset
                                       train_whole_model=True, #Train whole model or just layers that are not freezed ? masi belum paham
                                       validation_data=validation_data) #validation data
 
-model_qrcode.compile(loss = 'binary_crossentropy',
-                     optimizer = 'adam',
-                     metrics = ['accuracy'])
 
 """### Evaluate model with test data"""
 

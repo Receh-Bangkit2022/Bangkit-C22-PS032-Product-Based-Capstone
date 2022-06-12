@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "966093934205",
+    "project_id": "receh-app-v1",
+    "storage_bucket": "receh-app-v1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:966093934205:android:41fdfa24f168433486eb14",
+        "android_client_info": {
+          "package_name": "com.capstone.receh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "966093934205-fblrtc0klj1oirv3rsp4m6c7j16honpd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGMc8K_pnfPkTTuToYCNqxB-E5xXVuXak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "966093934205-fblrtc0klj1oirv3rsp4m6c7j16honpd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

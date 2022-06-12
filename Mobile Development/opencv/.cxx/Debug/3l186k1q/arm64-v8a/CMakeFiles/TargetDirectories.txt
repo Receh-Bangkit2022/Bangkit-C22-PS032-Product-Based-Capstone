@@ -1,0 +1,3 @@
+C:/Users/steve/Downloads/Receh/Receh/opencv/.cxx/Debug/3l186k1q/arm64-v8a/CMakeFiles/opencv_jni_shared.dir
+C:/Users/steve/Downloads/Receh/Receh/opencv/.cxx/Debug/3l186k1q/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/steve/Downloads/Receh/Receh/opencv/.cxx/Debug/3l186k1q/arm64-v8a/CMakeFiles/rebuild_cache.dir

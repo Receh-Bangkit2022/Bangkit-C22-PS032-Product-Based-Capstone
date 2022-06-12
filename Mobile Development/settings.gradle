@@ -1,0 +1,29 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+        maven {
+            url "https://download2.dynamsoft.com/maven/aar"
+        }
+        //noinspection JcenterRepositoryObsolete
+        jcenter()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven{url "https://download.dynamsoft.com/maven/dce/aar"}
+        maven{url "https://download.dynamsoft.com/maven/dce/aar"}
+        //noinspection JcenterRepositoryObsolete
+        jcenter()
+        maven {
+            url "https://download2.dynamsoft.com/maven/aar"
+        }
+    }
+}
+rootProject.name = "Receh"
+include ':app'
+include ':opencv'

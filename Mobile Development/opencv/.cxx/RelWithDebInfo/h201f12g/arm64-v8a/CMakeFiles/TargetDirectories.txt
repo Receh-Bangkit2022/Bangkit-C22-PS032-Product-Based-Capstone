@@ -1,0 +1,3 @@
+C:/Users/steve/Downloads/Receh-new30-05/Receh/opencv/.cxx/RelWithDebInfo/h201f12g/arm64-v8a/CMakeFiles/opencv_jni_shared.dir
+C:/Users/steve/Downloads/Receh-new30-05/Receh/opencv/.cxx/RelWithDebInfo/h201f12g/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/steve/Downloads/Receh-new30-05/Receh/opencv/.cxx/RelWithDebInfo/h201f12g/arm64-v8a/CMakeFiles/rebuild_cache.dir

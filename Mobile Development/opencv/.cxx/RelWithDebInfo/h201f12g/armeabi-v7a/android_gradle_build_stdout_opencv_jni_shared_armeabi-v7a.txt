@@ -1,0 +1,2 @@
+ninja: Entering directory `C:\Users\steve\Downloads\Receh-new30-05\Receh\opencv\.cxx\RelWithDebInfo\h201f12g\armeabi-v7a'
+ninja: no work to do.

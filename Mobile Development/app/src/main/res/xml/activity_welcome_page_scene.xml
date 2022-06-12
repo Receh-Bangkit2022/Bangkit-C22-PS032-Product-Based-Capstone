@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:motion="http://schemas.android.com/tools">
+
+
+    <ConstraintSet android:id="@+id/start" >
+        <Constraint
+            android:id="@+id/menu1"
+            app:layout_constraintEnd_toStartOf="@+id/menu2"
+            android:layout_width="14dp"
+            android:layout_height="27dp"
+            app:layout_constraintTop_toBottomOf="parent"
+            android:layout_marginStart="32dp"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+        <Constraint
+            android:id="@+id/logoMenu1"
+            app:layout_constraintStart_toEndOf="parent"
+            android:layout_width="0dp"
+            android:layout_height="300dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.3"
+            android:layout_marginStart="16dp"
+            app:layout_constraintTop_toTopOf="parent" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@+id/menu1" >
+        <Constraint
+            android:id="@+id/logoMenu1"
+            app:layout_constraintStart_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintBottom_toTopOf="@+id/menu1"
+            android:layout_marginBottom="32dp" />
+        <Constraint
+            android:id="@+id/menu1"
+            app:layout_constraintEnd_toStartOf="@+id/menu2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="32dp"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/btnDaftar"
+            android:layout_marginBottom="50dp">
+            <CustomAttribute
+                app:attributeName="crossfade"
+                app:customFloatValue="1" />
+        </Constraint>
+        <Constraint
+            android:id="@+id/menu2"
+            app:layout_constraintEnd_toStartOf="@+id/menu3"
+            app:layout_constraintStart_toEndOf="@+id/menu1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:layout_constraintBottom_toBottomOf="@+id/menu1"
+            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toTopOf="@+id/menu1" >
+            <CustomAttribute
+                app:attributeName="crossfade"
+                app:customFloatValue="0" />
+        </Constraint>
+        <Constraint
+            android:id="@+id/menu3"
+            app:layout_constraintEnd_toStartOf="@+id/menu4"
+            app:layout_constraintStart_toEndOf="@+id/menu2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:layout_constraintBottom_toBottomOf="@+id/menu2"
+            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toTopOf="@+id/menu2" >
+            <CustomAttribute
+                app:attributeName="crossfade"
+                app:customFloatValue="0" />
+        </Constraint>
+        <Constraint
+            android:id="@+id/menu4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/menu3"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:layout_constraintBottom_toBottomOf="@+id/menu3"
+            app:layout_constraintVertical_bias="0.0"
+            android:layout_marginEnd="32dp"
+            app:layout_constraintTop_toTopOf="@+id/menu3" >
+            <CustomAttribute
+                app:attributeName="crossfade"
+                app:customFloatValue="0" />
+        </Constraint>
+    </ConstraintSet>
+    <Transition
+        app:constraintSetStart="@+id/start"
+        app:constraintSetEnd="@+id/menu1"
+        app:autoTransition="animateToEnd" />
+    <ConstraintSet android:id="@+id/menu2" >
+        <Constraint
+            android:id="@+id/logoMenu2"
+            app:layout_constraintStart_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            app:layout_constraintVertical_bias="0.47000003"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/menu1" />
+
+        <Constraint
+            android:id="@+id/menu1"
+            app:layout_constraintEnd_toStartOf="@+id/menu2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/btnDaftar"
+            android:layout_marginBottom="50dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="32dp">
+            <CustomAttribute
+                app:attributeName="crossfade"
+                app:customFloatValue="0" />
+        </Constraint>
+        <Constraint
+            android:id="@+id/menu2"
+            app:layout_constraintEnd_toStartOf="@+id/menu3"
+            app:layout_constraintStart_toEndOf="@+id/menu1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:layout_constraintBottom_toBottomOf="@+id/menu1"
+            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintTop_toTopOf="@+id/menu1"
+            android:layout_marginStart="0dp">
+            <CustomAttribute
+                app:attributeName="crossfade"
+                app:customFloatValue="1" />
+        </Constraint>
+        <Constraint
+            android:id="@+id/menu3"
+            app:layout_constraintEnd_toStartOf="@+id/menu4"
+            app:layout_constraintStart_toEndOf="@+id/menu2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:layout_constraintBottom_toBottomOf="@+id/menu2"
+            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toTopOf="@+id/menu2" ><CustomAttribute
+            app:attributeName="crossfade"
+            app:customFloatValue="0" />
+        </Constraint>
+        <Constraint
+            android:id="@+id/menu4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/menu3"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:layout_constraintBottom_toBottomOf="@+id/menu3"
+            app:layout_constraintVertical_bias="0.0"
+            android:layout_marginEnd="32dp"
+            app:layout_constraintTop_toTopOf="@+id/menu3" >
+            <CustomAttribute
+                app:attributeName="crossfade"
+                app:customFloatValue="0" />
+        </Constraint>
+        <Constraint
+            app:layout_constraintEnd_toEndOf="@+id/logoMenu2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/logoMenu2"
+            app:layout_constraintStart_toStartOf="@+id/logoMenu2"
+            android:layout_marginTop="16dp"
+            android:id="@+id/titleMenu2" />
+    </ConstraintSet>
+    <Transition
+        app:constraintSetStart="@+id/menu1"
+        app:constraintSetEnd="@+id/menu2"
+        app:autoTransition="none" >
+        <OnSwipe app:dragDirection="dragLeft" />
+    </Transition>
+    <ConstraintSet android:id="@+id/menu3" >
+        <Constraint
+            android:id="@+id/logoMenu3"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/logoMenu2"
+            app:layout_constraintBottom_toTopOf="@+id/menu1"
+            app:layout_constraintVertical_bias="0.45999998" />
+        <Constraint
+            android:id="@+id/menu1"
+            app:layout_constraintEnd_toStartOf="@+id/menu2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="32dp"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/btnDaftar"
+            android:layout_marginBottom="50dp" >
+            <CustomAttribute
+                app:attributeName="crossfade"
+                app:customFloatValue="0" />
+        </Constraint>
+        <Constraint
+            android:id="@+id/menu2"
+            app:layout_constraintEnd_toStartOf="@+id/menu3"
+            app:layout_constraintStart_toEndOf="@+id/menu1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:layout_constraintBottom_toBottomOf="@+id/menu1"
+            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toTopOf="@+id/menu1" >
+            <CustomAttribute
+                app:attributeName="crossfade"
+                app:customFloatValue="0" />
+        </Constraint>
+        <Constraint
+            android:id="@+id/menu3"
+            app:layout_constraintEnd_toStartOf="@+id/menu4"
+            app:layout_constraintStart_toEndOf="@+id/menu2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:layout_constraintBottom_toBottomOf="@+id/menu2"
+            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toTopOf="@+id/menu2" >
+            <CustomAttribute
+                app:attributeName="crossfade"
+                app:customFloatValue="1" />
+        </Constraint>
+        <Constraint
+            android:id="@+id/menu4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/menu3"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:layout_constraintBottom_toBottomOf="@+id/menu3"
+            app:layout_constraintVertical_bias="0.0"
+            android:layout_marginEnd="32dp"
+            app:layout_constraintTop_toTopOf="@+id/menu3" >
+            <CustomAttribute
+                app:attributeName="crossfade"
+                app:customFloatValue="0" />
+        </Constraint>
+    </ConstraintSet>
+    <Transition
+        app:constraintSetStart="@+id/menu2"
+        app:constraintSetEnd="@+id/menu3"
+        app:autoTransition="none" >
+        <OnSwipe app:dragDirection="dragLeft" />
+    </Transition>
+    <ConstraintSet android:id="@+id/menu4" >
+        <Constraint
+            android:layout_height="300dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="wrap_content"
+            app:layout_constraintVertical_bias="0.52"
+            android:id="@+id/logoMenu4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/menu1" />
+        <Constraint
+            android:id="@+id/menu1"
+            app:layout_constraintEnd_toStartOf="@+id/menu2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="32dp"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/btnDaftar"
+            android:layout_marginBottom="50dp" >
+            <CustomAttribute
+                app:attributeName="crossfade"
+                app:customFloatValue="0" />
+        </Constraint>
+        <Constraint
+            android:id="@+id/menu2"
+            app:layout_constraintEnd_toStartOf="@+id/menu3"
+            app:layout_constraintStart_toEndOf="@+id/menu1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:layout_constraintBottom_toBottomOf="@+id/menu1"
+            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toTopOf="@+id/menu1" >
+            <CustomAttribute
+                app:attributeName="crossfade"
+                app:customFloatValue="0" />
+        </Constraint>
+        <Constraint
+            android:id="@+id/menu3"
+            app:layout_constraintEnd_toStartOf="@+id/menu4"
+            app:layout_constraintStart_toEndOf="@+id/menu2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:layout_constraintBottom_toBottomOf="@+id/menu2"
+            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toTopOf="@+id/menu2" >
+            <CustomAttribute
+                app:attributeName="crossfade"
+                app:customFloatValue="0" />
+        </Constraint>
+        <Constraint
+            android:id="@+id/menu4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/menu3"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:layout_constraintBottom_toBottomOf="@+id/menu3"
+            app:layout_constraintVertical_bias="0.0"
+            android:layout_marginEnd="32dp"
+            app:layout_constraintTop_toTopOf="@+id/menu3" >
+            <CustomAttribute
+                app:attributeName="crossfade"
+                app:customFloatValue="1" />
+        </Constraint>
+        <Constraint
+            app:layout_constraintEnd_toEndOf="@+id/logoMenu4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/logoMenu4"
+            app:layout_constraintStart_toStartOf="@+id/logoMenu4"
+            android:layout_marginTop="16dp"
+            android:id="@+id/titleMenu4" />
+    </ConstraintSet>
+    <Transition
+        app:constraintSetStart="@+id/menu3"
+        app:constraintSetEnd="@+id/menu4"
+        app:autoTransition="none" >
+        <OnSwipe app:dragDirection="dragLeft" />
+    </Transition>
+</MotionScene>
